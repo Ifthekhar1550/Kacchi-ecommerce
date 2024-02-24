@@ -3,7 +3,7 @@ import DashboardLayout from "../components/layouts/DashboardLayout/DashboardLayo
 import MainLayout from "../components/layouts/MainLayout/MainLayout";
 import HomePage from "../Pages/Home/HomePage";
 import AboutPage from "../Pages/About/AboutPage";
-import BranchesPage from "../Pages/Braches/BranchesPage";
+import BranchesPage from "../Pages/Branches/BranchesPage";
 
 export const routes = createBrowserRouter([
   {
@@ -20,7 +20,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/branch",
-        element: <BranchesPage />,
+        element: <BranchesPage/>,
       },
       {
         path: "/login",
