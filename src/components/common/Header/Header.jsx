@@ -35,9 +35,9 @@ const Header = () => {
           as="li"
           variant="small"
           color="blue-gray"
-          className={`p-1 font-semibold ${window.location.pathname === '' ? 'text-[#FE0000]' : ''}`}
+          className={`p-1 font-semibold ${window.location.pathname === '/menu' ? 'text-[#FE0000]' : ''}`}
         >
-          <a href="" className="flex items-center ">
+          <a href="/menu" className="flex items-center ">
           মেনু
           </a>
         </Typography>
@@ -45,9 +45,9 @@ const Header = () => {
           as="li"
           variant="small"
           color="blue-gray"
-          className={`p-1 font-semibold ${window.location.pathname === '' ? 'text-[#FE0000]' : ''}`}
+          className={`p-1 font-semibold ${window.location.pathname === '/offer' ? 'text-[#FE0000]' : ''}`}
         >
-          <a href="" className="flex items-center ">
+          <a href="/offer" className="flex items-center ">
           অফার
           </a>
         </Typography>
