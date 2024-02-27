@@ -4,7 +4,7 @@ import Items from "./Items";
 const Menu = () => {
   return (
     <section className="w-[90%] lg:max-w-7xl mx-auto">
-      <div className=" bg-[#FF01010D] px-6 py-16 max-w-6xl mx-auto rounded-xl">
+      <div className=" bg-[#FF01010D] px-6 py-16" style={{ borderTopRightRadius: '250px', borderBottomLeftRadius: '100px' }}>
         <h2 className="text-center text-xl lg:text-3xl font-bold">আমাদের স্পেশাল মেনু</h2>
         <hr className="w-[15%] mx-auto mt-3 bg-black p-[1px]" />
         <Items/>     
