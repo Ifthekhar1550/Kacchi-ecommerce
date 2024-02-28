@@ -88,37 +88,42 @@ const Header = () => {
     );
    
     return (
-      <div className="max-h-[768px] w-[calc(100%+48px)">
+      <div className="max-h-[768px] w-[calc(100%+48px) shadow-md">
         <Navbar className="sticky top-0 z-10 h-max max-w-[1280px] px-4 py-2 lg:px-8 lg:py-5 mx-auto shadow-none">
           <div className="flex items-center justify-between text-blue-gray-900">
-            <div className='flex items-center'>
-            <Typography
-              as="a"
-              href="/"
-              className="mr-7 cursor-pointer py-1.5 font-medium"
-            >
-            <img src={Image} alt="" className='w-[50px] h-[50px]'/>
-            </Typography>
-           
-             <RiFacebookCircleLine size={25}  className='hover:text-[#FE0000] cursor-pointer me-3'/>
-          
-            <div className='hover:text-[#FE0000] cursor-pointer'>
-             <FaInstagram  size={25}/>
+            <div className="flex items-center">
+              <Typography
+                as="a"
+                href="/"
+                className="mr-7 cursor-pointer py-1.5 font-medium"
+              >
+                <img src={Image} alt="" className="w-[50px] h-[50px]" />
+              </Typography>
+
+              <RiFacebookCircleLine
+                size={25}
+                className="hover:text-[#FE0000] cursor-pointer me-3"
+              />
+
+              <div className="hover:text-[#FE0000] cursor-pointer">
+                <FaInstagram size={25} />
+              </div>
             </div>
-            </div>
-            
+
             <div className="flex items-center gap-4">
               <div className="mr-2 hidden lg:block">{navList}</div>
               <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className={`p-1 font-normal bg-[#FE0000] text-white px-5 rounded-full py-2 ${window.location.pathname === '' ? 'text-white' : ''}`}
-        >
-          <a href="" className="flex items-center">
-          বুকিং 
-          </a>
-        </Typography>
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className={`p-1 font-normal bg-[#FE0000] text-white px-5 rounded-full py-2 ${
+                  window.location.pathname === "" ? "text-white" : ""
+                }`}
+              >
+                <a href="" className="flex items-center">
+                  বুকিং
+                </a>
+              </Typography>
               <IconButton
                 variant="text"
                 className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -158,13 +163,10 @@ const Header = () => {
               </IconButton>
             </div>
           </div>
-          <MobileNav open={openNav}>
-            {navList}
-          </MobileNav>
+          <MobileNav open={openNav}>{navList}</MobileNav>
         </Navbar>
-        
       </div>
-    )
+    );
 };
 
 export default Header;
