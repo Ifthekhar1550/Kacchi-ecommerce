@@ -4,6 +4,9 @@ import Image1 from '../../assets/Delivery-Partner/Foodpanda.png';
 import Image2 from '../../assets/Delivery-Partner/Foodi.png';
 import Image3 from '../../assets/Delivery-Partner/Pathao.png';
 import Menu from '../Menu/Menu';
+import Slider from './Slider/Slider';
+import Group from './Group/Group';
+import Items from '../Menu/Items';
 
 const HomePage = () => {
   return(
@@ -41,7 +44,14 @@ const HomePage = () => {
 
   {/* Menu Section Start */}
   <div id='Menu' className='mt-8 mb-16'>
-    <Menu/>
+  <section className="w-[90%] lg:max-w-7xl mx-auto">
+      <div className=" bg-[#FF01010D] px-6 py-16" style={{ borderTopRightRadius: '250px', borderBottomLeftRadius: '100px' }}>
+        <h2 className="text-center text-xl lg:text-3xl font-bold">আমাদের স্পেশাল মেনু</h2>
+        <hr className="w-[15%] mx-auto mt-3 bg-black p-[1px]" />
+        <Items/>     
+      </div>
+    
+    </section>
   </div>
     {/* Menu Section end */}
 
@@ -79,6 +89,17 @@ const HomePage = () => {
 
 
     {/* Delivery Partner End */}
+
+{/* Slider Start */}
+    <div className='mt-16 mb-10'>
+      <Slider/>
+    </div>
+{/* Slider End */}
+
+
+    <div className='mt-10 mb-10'>
+      <Group/>
+    </div>
 
 
   </>
