@@ -10,7 +10,7 @@ const Items5 = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
     <div className='flex flex-col'>
-        <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+        <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
           <img
             alt=""
             src={itemImage1}
@@ -41,7 +41,7 @@ const Items5 = () => {
         </a>
     </div>
     <div className='flex flex-col'>
-        <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+        <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
           <img
             alt=""
             src={itemImage2}
@@ -72,7 +72,7 @@ const Items5 = () => {
         </a>
     </div>
     <div className='flex flex-col'>
-        <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+        <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
           <img
             alt=""
             src={itemImage3}
@@ -103,7 +103,7 @@ const Items5 = () => {
         </a>
     </div>
     <div className='flex flex-col'>
-        <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+        <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
           <img
             alt=""
             src={itemImage4}
@@ -134,7 +134,7 @@ const Items5 = () => {
         </a>
     </div>
     <div className='flex flex-col'>
-        <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+        <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
           <img
             alt=""
             src={itemImage5}

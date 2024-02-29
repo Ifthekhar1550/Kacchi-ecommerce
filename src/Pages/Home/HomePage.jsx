@@ -3,7 +3,6 @@ import banner from '../../assets/banner.png';
 import Image1 from '../../assets/Delivery-Partner/Foodpanda.png';
 import Image2 from '../../assets/Delivery-Partner/Foodi.png';
 import Image3 from '../../assets/Delivery-Partner/Pathao.png';
-import Menu from '../Menu/Menu';
 import Slider from './Slider/Slider';
 import Group from './Group/Group';
 import Items from '../Menu/Items';
@@ -13,7 +12,7 @@ const HomePage = () => {
 <>
   {/* // Banner section start */}
 <section
-  className="relative  bg-cover bg-center bg-no-repeat"
+  className="relative bg-cover  bg-center bg-no-repeat"
   style={{ backgroundImage: `url(${banner})` }}
 >
   <div
@@ -45,7 +44,7 @@ const HomePage = () => {
   {/* Menu Section Start */}
   <div id='Menu' className='mt-8 mb-16'>
   <section className="w-[90%] lg:max-w-7xl mx-auto">
-      <div className=" bg-[#FF01010D] px-6 py-16" style={{ borderTopRightRadius: '250px', borderBottomLeftRadius: '100px' }}>
+      <div className=" bg-[#FF01010D] px-10 py-24" style={{ borderTopRightRadius: '250px', borderBottomLeftRadius: '100px' }}>
         <h2 className="text-center text-xl lg:text-3xl font-bold">আমাদের স্পেশাল মেনু</h2>
         <hr className="w-[15%] mx-auto mt-3 bg-black p-[1px]" />
         <Items/>     
