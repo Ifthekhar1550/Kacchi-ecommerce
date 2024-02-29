@@ -11,7 +11,8 @@ const Items1 = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
         <div className='flex flex-col'>
-          <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+          <a href="#" className="flex-grow block rounded-lg p-4 shadow-md
+            bg-white">
             <img
               alt=""
               src={itemImage1}
@@ -34,7 +35,7 @@ const Items1 = () => {
                       <img src={Image1} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">৩০০/-</p>
+                    <p className="font-semibold text-base text-center">৩০০/-</p>
                   </div>
                 </div>
 
@@ -45,7 +46,7 @@ const Items1 = () => {
                     <img src={Image2} alt="" className='w-[54px] h-[54px]'/>
                       </p>
 
-                    <p className="font-semibold text-base">৮৯০/-</p>
+                    <p className="font-semibold text-base text-center">৮৯০/-</p>
                   </div>
                 </div>
 
@@ -56,7 +57,7 @@ const Items1 = () => {
                     <img src={Image3} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">১৪৮০/-</p>
+                    <p className="font-semibold text-base text-center">১৪৮০/-</p>
                   </div>
                 </div>
               </div>
@@ -65,7 +66,7 @@ const Items1 = () => {
         </div>
 
         <div className='flex flex-col'>
-          <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+          <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
             <img
               alt=""
               src={itemImage2}
@@ -88,7 +89,7 @@ const Items1 = () => {
                       <img src={Image1} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">৪৯০/-</p>
+                    <p className="font-semibold text-base text-center">৪৯০/-</p>
                   </div>
                 </div>
 
@@ -99,7 +100,7 @@ const Items1 = () => {
                     <img src={Image2} alt="" className='w-[54px] h-[54px]'/>
                       </p>
 
-                    <p className="font-semibold text-base">১৩২০/-</p>
+                    <p className="font-semibold text-base text-center">১৩২০/-</p>
                   </div>
                 </div>
 
@@ -110,7 +111,7 @@ const Items1 = () => {
                     <img src={Image3} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">২২৫০/-</p>
+                    <p className="font-semibold text-base text-center">২২৫০/-</p>
                   </div>
                 </div>
               </div>
@@ -119,7 +120,7 @@ const Items1 = () => {
         </div>
 
         <div className='flex flex-col'>
-          <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+          <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
             <img
               alt=""
               src={itemImage3}
@@ -143,7 +144,7 @@ const Items1 = () => {
                       <img src={Image1} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">৪২০/-</p>
+                    <p className="font-semibold text-base text-center">৪২০/-</p>
                   </div>
                 </div>
 
@@ -154,7 +155,7 @@ const Items1 = () => {
                     <img src={Image2} alt="" className='w-[54px] h-[54px]'/>
                       </p>
 
-                    <p className="font-semibold text-base">১২৪০/-</p>
+                    <p className="font-semibold text-base text-center">১২৪০/-</p>
                   </div>
                 </div>
 
@@ -165,7 +166,7 @@ const Items1 = () => {
                     <img src={Image3} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">২০৫০/-</p>
+                    <p className="font-semibold text-base text-center">২০৫০/-</p>
                   </div>
                 </div>
               </div>
@@ -174,7 +175,7 @@ const Items1 = () => {
         </div>
 
         <div className='flex flex-col'>
-          <a href="#" className="flex-grow block rounded-lg p-4 shadow-sm shadow-indigo-100">
+          <a href="#" className="flex-grow block rounded-lg p-4 shadow-md bg-white">
             <img
               alt=""
               src={itemImage4}
@@ -197,7 +198,7 @@ const Items1 = () => {
                       <img src={Image1} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">২৯০/-</p>
+                    <p className="font-semibold text-base text-center">২৯০/-</p>
                   </div>
                 </div>
 
@@ -208,7 +209,7 @@ const Items1 = () => {
                     <img src={Image2} alt="" className='w-[54px] h-[54px]'/>
                       </p>
 
-                    <p className="font-semibold text-base">৮৫০/-</p>
+                    <p className="font-semibold text-base text-center">৮৫০/-</p>
                   </div>
                 </div>
 
@@ -219,7 +220,7 @@ const Items1 = () => {
                     <img src={Image3} alt="" className='w-[54px] h-[54px]'/>
                     </p>
 
-                    <p className="font-semibold text-base">১৪০০/-</p>
+                    <p className="font-semibold text-base text-center">১৪০০/-</p>
                   </div>
                 </div>
               </div>
