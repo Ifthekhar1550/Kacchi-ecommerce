@@ -111,19 +111,6 @@ const Header = () => {
             <div className="flex items-center gap-4">
               <div className="mr-2 hidden lg:block">{navList}</div>
               <Typography
-
-                as="li"
-                variant="small"
-                color="blue-gray"
-                className={`p-1 font-normal bg-[#FE0000] text-white px-5 rounded-full py-2 ${
-                  window.location.pathname === "" ? "text-white" : ""
-                }`}
-              >
-                <a href="" className="flex items-center">
-                  বুকিং
-                </a>
-              </Typography>
-
           as="li"
           variant="large"
           color="blue-gray"
@@ -133,7 +120,6 @@ const Header = () => {
           বুকিং 
           </a>
         </Typography>
-
               <IconButton
                 variant="text"
                 className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
