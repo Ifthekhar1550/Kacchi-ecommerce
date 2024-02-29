@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import {
   Card,
   CardHeader,
@@ -33,10 +34,33 @@ export function ProfileCard({ title, link }) {
       }
     }, 300);
   }, []);
+  const bengaliToEnglishMapping = {
+    "শনির আখড়া": "shanirakhra",
+    "মিরপুর - ১০": "mirpur-10",
+    মোহাম্মদপুর: "mohammadpur",
+    উত্তরা: "uttara",
+    গুলশান: "gulshan",
+    "বেইলি রোড": "bailey-road",
+    ধানমন্ডি: "dhanmondi",
+    "বসুন্ধরা গেট": "bashundhara-gate",
+    ওয়ারি: "wari",
+    খুলনা: "khulna",
+    খিলগাঁও: "khilgaon",
+    নারায়ণগঞ্জ: "narayanganj",
+    সাভার: "savar",
+    চট্রগ্রাম: "chittagong",
+    রাজশাহী: "rajshahi",
+    বগুড়া: "bogura",
+    "পুরান ঢাকা": "puran-dhaka",
+    বনশ্রী: "banasree",
+    "মিরপুর - ১": "mirpur-1",
+  };
+
+  const routeTitle = bengaliToEnglishMapping[title] || title;
 
   return (
     <motion.div
-      initial={{ scale: 0.50 }} // Set initial scale to 0.50
+      initial={{ scale: 0.5 }} // Set initial scale to 0.50
       animate={{
         x: 0,
         y: 0,
@@ -44,10 +68,13 @@ export function ProfileCard({ title, link }) {
         rotate: 0,
       }}
     >
-      <a
-        href={link}
-        className="block w-64 rounded overflow-hidden transform transition-transform duration-300 hover:scale-95"
+      <Link
+        to={`/branch/${encodeURIComponent(routeTitle)}`}
+        className="block w-64 rounded overflow-hidden transform
+        transition-transform duration-300 hover:scale-95"
       >
+        {" "}
+        {/* Use dynamic link */}
         <Card
           className="w-44 md:w-60 lg:w-full bg-white cursor-pointer rounded-3xl overflow-hidden"
           onMouseOver={handleMouseOver}
@@ -85,7 +112,7 @@ export function ProfileCard({ title, link }) {
             </div>
           </CardBody>
         </Card>
-      </a>
+      </Link>
     </motion.div>
   );
 }

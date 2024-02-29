@@ -6,6 +6,8 @@ import AboutPage from "../Pages/About/AboutPage";
 import BranchesPage from "../Pages/Branches/BranchesPage";
 import Menu from "../Pages/Menu/Menu";
 import Offer from "../Pages/Offer/Offer";
+import BranchDetailsPage from "../Pages/Branches/components/BranchDetailsPage";
+
 
 export const routes = createBrowserRouter([
   {
@@ -22,7 +24,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/offer",
-        element: <Offer/>,
+        element: <Offer />,
       },
       {
         path: "/about",
@@ -30,9 +32,12 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/branch",
-        element: <BranchesPage/>,
+        element: <BranchesPage />,
       },
-
+      {
+        path: "/branch/:branchTitle",
+        element: <BranchDetailsPage />,
+      },
     ],
   },
   // {
