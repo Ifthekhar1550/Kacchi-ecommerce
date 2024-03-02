@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 import { ProfileCard } from "./components/ProfileCard";
@@ -7,11 +7,12 @@ import BranchHeading from "./components/BranchHeading";
 const BranchesPage = () => {
   return (
     <div className="bg-[#ecfafe] py-20">
-      <section className="max-w-[1280px] mx-auto  ">
+      <section className="w-[90%] max-w-7xl mx-auto">
         <BranchHeading />
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+
           <Link to="/branch/shanirakhra">
-            <ProfileCard title="শনির আখড়া" />
+            <ProfileCard title="শনির আখড়া"/>
           </Link>
           <Link to="/branch/mirpur-10">
             <ProfileCard title="মিরপুর - ১০" />
