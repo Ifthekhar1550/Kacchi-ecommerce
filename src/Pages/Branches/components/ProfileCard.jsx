@@ -70,19 +70,19 @@ export function ProfileCard({ title, link }) {
     >
       <Link
         to={`/branch/${encodeURIComponent(routeTitle)}`}
-        className="block w-64 rounded overflow-hidden transform
+        className="block w-full rounded overflow-hidden transform
         transition-transform duration-300 hover:scale-95"
       >
         {" "}
         {/* Use dynamic link */}
         <Card
-          className="w-44 md:w-60 lg:w-full bg-white cursor-pointer rounded-3xl overflow-hidden"
+          className="md:w-60 lg:w-full bg-white cursor-pointer rounded-3xl overflow-hidden"
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
         >
           <CardHeader
             floated={false}
-            className="h-44 md:h-60 lg:h-72 shadow-none"
+            className="h-full md:h-60 lg:h-72 shadow-none"
           >
             <img src={logo} alt="branch" />
           </CardHeader>

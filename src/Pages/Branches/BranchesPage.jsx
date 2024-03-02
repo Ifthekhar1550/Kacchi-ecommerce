@@ -10,7 +10,7 @@ const BranchesPage = () => {
       <section className="w-[90%] max-w-7xl mx-auto">
         <BranchHeading />
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-
+            
           <Link to="/branch/shanirakhra">
             <ProfileCard title="শনির আখড়া"/>
           </Link>
