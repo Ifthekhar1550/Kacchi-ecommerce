@@ -5,6 +5,7 @@ import AboutPage from "../Pages/About/AboutPage";
 import BranchesPage from "../Pages/Branches/BranchesPage";
 import Menu from "../Pages/Menu/Menu";
 import Offer from "../Pages/Offer/Offer";
+import Review from "../Pages/Review/Review";
 
 export const routes = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ export const routes = createBrowserRouter([
         path: "/branch",
         element: <BranchesPage/>,
       },
+      {
+        path: "/review",
+        element: <Review/>,
+      },
+
 
     ],
   }

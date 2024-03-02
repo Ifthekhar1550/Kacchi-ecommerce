@@ -97,7 +97,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a className="text-[#1F2022] transition hover:text-primary" href="#">
+                  <a className="text-[#1F2022] transition hover:text-primary" href="/review">
                     Reviews
                   </a>
                 </li>
@@ -119,7 +119,7 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a className="text-[#1F2022] transition hover:text-primary" href="#"> Branch </a>
+                  <a className="text-[#1F2022] transition hover:text-primary" href="#"> Branch Contact</a>
                 </li>
 
                 <li>
