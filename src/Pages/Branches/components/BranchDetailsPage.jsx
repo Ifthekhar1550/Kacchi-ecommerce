@@ -66,7 +66,7 @@ const BranchDetailsPage = () => {
    return <div>Branch details not found</div>;
  }
 
- const { images, address, mapLink } = currentBranchDetails;
+ const { images, address, phoneNumber, mapLink } = currentBranchDetails;
  useEffect(() => {
    if (inView) {
      controls.start("animate");
@@ -148,13 +148,19 @@ const BranchDetailsPage = () => {
           <div className="flex flex-col xl:flex-row justify-center items-center md:justify-start gap-5 xl:gap-0 my-10">
             <div className="w-full flex flex-row gap-5 justify-center items-center md:justify-start">
               <div>
-                {/* <Link to={5}></Link> */}
-                <Button
-                  size="md"
-                  className="font-semibold bg-[#FE0000] text-white  rounded-2xl py-3 "
+                <Link
+                  to={`tel:${currentBranchDetails.phoneNumber}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  
                 >
-                  কল করুন
-                </Button>
+                  <Button
+                    size="md"
+                    className="font-semibold bg-[#FE0000] text-white  rounded-2xl py-3 "
+                  >
+                    কল করুন
+                  </Button>
+                </Link>
               </div>
 
               <div>
@@ -276,10 +282,13 @@ const BranchDetailsPage = () => {
         </div>
       </section>
 
-      <div id="branch-address" className="w-full h-full max-w-full bg-[#ecfafe] rounded-md shadow-md  py-6">
+      <div
+        id="branch-address"
+        className="w-full h-full max-w-full bg-[#ecfafe] rounded-md shadow-md  py-6"
+      >
         {/* Address section
          */}
-        <section className="max-w-7xl mx-auto my-10" >
+        <section className="max-w-7xl mx-auto my-10">
           <div>
             <h1 className="text-2xl md:text-4xl text-gray-900 font-extrabold text-center">
               এড্রেস
