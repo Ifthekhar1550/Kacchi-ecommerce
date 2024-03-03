@@ -86,7 +86,8 @@ const Header = () => {
     );
    
     return (
-      <div className="max-h-[768px] w-[calc(100%+48px) shadow-md">
+      <div className="max-h-[768px] w-[calc(100%+48px)
+      ">
         <Navbar className="sticky top-0 z-10 h-max max-w-[1280px] px-4 py-2 lg:px-8 lg:py-5 mx-auto shadow-none">
           <div className="flex items-center justify-between text-blue-gray-900">
             <div className="flex items-center">
@@ -108,7 +109,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 ">
               <div className="mr-2 hidden lg:block">{navList}</div>
               <Typography
           as="li"
@@ -159,7 +160,7 @@ const Header = () => {
               </IconButton>
             </div>
           </div>
-          <MobileNav open={openNav}>{navList}</MobileNav>
+          <MobileNav open={openNav} >{navList}</MobileNav>
         </Navbar>
       </div>
     );
