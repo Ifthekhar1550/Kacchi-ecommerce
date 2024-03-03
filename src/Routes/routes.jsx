@@ -8,6 +8,8 @@ import Offer from "../Pages/Offer/Offer"
 import Review from "../Pages/Review/Review";
 
 import BranchDetailsPage from "../Pages/Branches/components/BranchDetailsPage";
+import Contact from "../Pages/Contact/Contact";
+import BranchContact from "../Pages/BranchContact/BranchContact";
 
 export const routes = createBrowserRouter([
   {
@@ -39,8 +41,17 @@ export const routes = createBrowserRouter([
         element: <BranchDetailsPage />,
       },
       {
+        path: "/contactNumber",
+        element: <BranchContact/>,
+      },
+
+      {
         path: "/review",
         element: <Review/>,
+      },
+      {
+        path: "/contact",
+        element: <Contact/>,
       },
 
     ],

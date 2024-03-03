@@ -119,11 +119,11 @@ const Footer = () => {
                 </li>
 
                 <li>
-                  <a className="text-[#1F2022] transition hover:text-primary" href="#"> Branch Contact</a>
+                  <a className="text-[#1F2022] transition hover:text-primary" href="/contactNumber"> Branch Contact</a>
                 </li>
 
                 <li>
-                  <a className="text-[#1F2022] transition hover:text-primary" href="#"> Contact us </a>
+                  <a className="text-[#1F2022] transition hover:text-primary" href="/contact"> Contact us </a>
                 </li>
 
                 <li>

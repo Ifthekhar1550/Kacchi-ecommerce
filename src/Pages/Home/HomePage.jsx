@@ -6,28 +6,26 @@ import Image3 from '../../assets/Delivery-Partner/Pathao.png';
 import Slider from './Slider/Slider';
 import Group from './Group/Group';
 import Items from '../Menu/Items';
+import BranchesPage from '../Branches/BranchesPage';
 
 const HomePage = () => {
   return(
 <>
   {/* // Banner section start */}
 <section
-  className="relative bg-cover  bg-center bg-no-repeat"
+  className="relative bg-cover  bg-center bg-no-repeat max-w-[1200px] mx-auto rounded-3xl"
   style={{ backgroundImage: `url(${banner})` }}
 >
-  <div
-  className="absolute inset-0"
-  ></div>
 
   <div
-    className="relative mx-auto  py-32  lg:flex lg:justify-center lg:h-screen lg:items-center lg:px-8 max-w-7xl"
+    className=" py-32  lg:flex lg:justify-center lg:h-[550px] lg:items-center lg:px-8 "
   >
-    <div className="text-center">
-      <h1 className="text-4xl font-extrabold sm:text-6xl text-white ">
+    <div className="">
+      <h1 className="text-4xl font-extrabold sm:text-6xl text-white text-center">
       ঐতিহ্যবাহী <span className='text-primary'>কাচ্চি</span> সেরা স্বাদে
       </h1>
 
-      <div className="absolute mt-10 left-[83px] lg:mt-48 sm:left-14 flex flex-wrap gap-4">
+      <div className="absolute mt-10 left-[83px] lg:mt-36 sm:left-14 flex flex-wrap gap-4">
         <a
           href="#Menu"
           className="block w-full  bg-primary px-8 py-3 font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto rounded-full text-sm lg:text-lg"
@@ -56,12 +54,14 @@ const HomePage = () => {
 
    
    {/* Branch Section Start */}
-              <div></div>
+              <div>
+                <BranchesPage/>
+              </div>
    {/* Branch Section  End */}
 
     
     {/* Delivery Partner Start */}
-    <section className="w-[90%] lg:max-w-7xl mx-auto">
+      <section className="w-[90%] lg:max-w-7xl mx-auto">
     <div className='grid grid-cols-1 lg:grid-cols-2'>
           <div className='flex items-center justify-center'>
              <h2 className='font-bold text-2xl lg:text-3xl text-[#000]'>আমাদের ডেলিভারি পার্টনার</h2>
@@ -84,7 +84,7 @@ const HomePage = () => {
           </div>  
     </div>  
       
-    </section>
+      </section>
 
 
     {/* Delivery Partner End */}
