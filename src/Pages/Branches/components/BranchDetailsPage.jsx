@@ -42,27 +42,24 @@ const BranchDetailsPage = () => {
     "puran-dhaka": "পুরান ঢাকা",
     banasree: "বনশ্রী",
     "mirpur-1": "মিরপুর - ১",
-    // Add more mappings for other branch titles
+  
   };
 
   const banglaBranchTitle = englishToBengaliMapping[branchTitle] || branchTitle;
 
-  // Framer Motion Animation Variants
  const controls = useAnimation();
  const [ref, inView] = useInView({
-   threshold: 0.2, // Adjust this value based on when you want the animation to trigger
+   threshold: 0.2, 
  });
   
  useEffect(() => {
-   // Fetch additional data or perform actions based on branchTitle if needed
    console.log(`Fetching data for branch: ${branchTitle}`);
  }, [branchTitle]);
 
- // Access the details for the current branch
+
  const currentBranchDetails = branchData[branchTitle];
- // Check if currentBranchDetails exists before accessing its properties
+
  if (!currentBranchDetails) {
-   // Handle the case when branch details are not available
    return <div>Branch details not found</div>;
  }
 
@@ -105,7 +102,7 @@ const BranchDetailsPage = () => {
         <div className="relative">
           <img
             src={banner}
-            className="object-cover object-center  w-full h-[220px] md:w-full md:h-full  rounded-tr-[44px] rounded-tl-[12px] rounded-bl-[44px] rounded-br-[148px] md:rounded-tr-[44px] md:rounded-tl-[20px] md:rounded-bl-[44px] md:rounded-br-[450px] xl:rounded-tr-[48px] xl:rounded-tl-[12px] xl:rounded-bl-[48px] xl:rounded-br-[450px] shadow-md "
+            className="object-cover object-center  w-[90%] lg:w-full mx-auto h-[220px] md:w-full md:h-full  rounded-tr-[44px] rounded-tl-[12px] rounded-bl-[44px] rounded-br-[148px] md:rounded-tr-[44px] md:rounded-tl-[20px] md:rounded-bl-[44px] md:rounded-br-[450px] xl:rounded-tr-[48px] xl:rounded-tl-[12px] xl:rounded-bl-[48px] xl:rounded-br-[450px] shadow-md "
             alt=""
           />
           <div
@@ -169,7 +166,7 @@ const BranchDetailsPage = () => {
                   size="sm"
                   className="font-semibold bg-white  text- rounded-3xl py-3 border border-gray-400"
                 >
-                  <img src={panda} alt="" srcset="" className="w-28" />
+                  <img src={panda} alt="" className="w-28" />
                 </Button>
               </div>
             </div>
