@@ -25,9 +25,8 @@ export function ProfileCard({ title, link }) {
     }
   };
 
-  // Add useEffect to trigger initial animation when component mounts
+
   useEffect(() => {
-    // Trigger the initial animation by setting the scale to 1 in a short time
     setTimeout(() => {
       if (iconRef.current) {
         iconRef.current.style.transform = "scale(1)";
@@ -60,7 +59,7 @@ export function ProfileCard({ title, link }) {
 
   return (
     <motion.div
-      initial={{ scale: 0.5 }} // Set initial scale to 0.50
+      initial={{ scale: 0.5 }}
       animate={{
         x: 0,
         y: 0,

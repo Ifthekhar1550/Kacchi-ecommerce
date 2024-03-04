@@ -38,8 +38,9 @@ const AboutPage = () => {
                 </div>
 
                 <div>
-                    <h1 className="text-3xl font-bold sm:text-5xl text-[#101828] text-center">
-                        ঐতিহ্যবাহী কাচ্চি মানেই<br />
+                    <h1 className="text-3xl font-shamim  sm:text-5xl text-[#101828] text-center leading-3">
+                        ঐতিহ্যবাহী কাচ্চি মানেই
+                        <div className='py-4'></div>
                         কাচ্চি ভাই এর কাচ্চি
                     </h1>
 

@@ -13,7 +13,7 @@ const HomePage = () => {
 <>
   {/* // Banner section start */}
 <section
-  className="relative bg-cover  bg-center bg-no-repeat max-w-[1200px] mx-auto rounded-3xl"
+  className="relative bg-cover  bg-center bg-no-repeat max-w-[90%] lg:max-w-[1200px] mx-auto rounded-3xl"
   style={{ backgroundImage: `url(${banner})` }}
 >
 
@@ -21,8 +21,8 @@ const HomePage = () => {
     className=" py-32  lg:flex lg:justify-center lg:h-[550px] lg:items-center lg:px-8 "
   >
     <div className="">
-      <h1 className="text-4xl font-extrabold sm:text-6xl text-white text-center">
-      ঐতিহ্যবাহী <span className='text-primary'>কাচ্চি</span> সেরা স্বাদে
+      <h1 className="text-4xl  sm:text-6xl text-white text-center font-shamim">
+      ঐতিহ্যবাহী <span className='text-primary font-shamim'>কাচ্চি</span> সেরা স্বাদে
       </h1>
 
       <div className="absolute mt-10 left-[83px] lg:mt-36 sm:left-14 flex flex-wrap gap-4">
