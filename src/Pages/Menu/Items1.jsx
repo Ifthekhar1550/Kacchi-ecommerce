@@ -4,7 +4,7 @@ import itemImage3 from '../../assets/Kacchi/BasmatiFirni.jpeg'
 import itemImage4 from '../../assets/Polaw/polawChicken.jpeg'
 import Image1 from '../../assets/Icons/OnePerson.png'
 import Image2 from '../../assets/Icons/TwoPerson.png'
-import Image3 from '../../assets/Icons/FivePerson.png'
+import Image3 from '../../assets/Icons/FIvePerson.png'
 
 
 const Items1 = () => {
