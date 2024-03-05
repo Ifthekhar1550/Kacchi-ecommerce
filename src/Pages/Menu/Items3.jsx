@@ -3,7 +3,7 @@ import itemImage1 from '../../assets/Polaw/polawChicken.jpeg'
 import itemImage2 from '../../assets/Polaw/polawBeef.jpeg'
 import Image1 from '../../assets/Icons/OnePerson.png'
 import Image2 from '../../assets/Icons/TwoPerson.png'
-import Image3 from '../../assets/Icons/FivePerson.png'
+import Image3 from '../../assets/Icons/FIvePerson.png'
 const Items3 = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
