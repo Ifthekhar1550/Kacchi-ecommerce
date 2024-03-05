@@ -7,7 +7,7 @@ import itemImage6 from '../../assets/Kacchi/kacchiBadamDrink.png'
 
 import Image1 from '../../assets/Icons/OnePerson.png'
 import Image2 from '../../assets/Icons/TwoPerson.png'
-import Image3 from '../../assets/Icons/FivePerson.png'
+import Image3 from '../../assets/Icons/FIvePerson.png'
 
 const Items2 = () => {
   return (

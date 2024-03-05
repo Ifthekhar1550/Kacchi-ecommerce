@@ -2,7 +2,7 @@ import itemImage1 from '../../assets/ChuiBeef/kacchi_bhai_chui_jhal_gosto_with_p
 import itemImage2 from '../../assets//ChuiBeef/kacchi_bhai_chui_jhal_gosto.jpeg'
 import Image1 from '../../assets/Icons/OnePerson.png'
 import Image2 from '../../assets/Icons/TwoPerson.png'
-import Image3 from '../../assets/Icons/FivePerson.png'
+import Image3 from '../../assets/Icons/FIvePerson.png'
 
 const Items4 = () => {
   return (
